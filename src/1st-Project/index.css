@@ -1,0 +1,235 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.header{
+    width: 90vw;
+    margin: 0 auto;
+}
+.nav{
+    width: 100%;
+    height: 6rem;
+}
+.nav > p{
+    font-family: sans-serif;
+    font-size: 1.5rem;
+    color: rgb(104, 109, 114);
+    padding: 3rem   5rem;
+}
+.Sign-in-Section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 5rem;
+    
+}
+.Sign-in-Section > .signin-intro > .signin-heading{
+    font-family: sans-serif;
+    font-size: 2rem;
+    color: rgb(44, 44, 44);
+}
+.Sign-in-Section > .signin-intro > .lorem{
+    font-family: sans-serif;
+    font-size: 1.3rem;
+    color: rgb(49, 49, 49);
+    padding: .8rem 0;
+}
+.Sign-in-Section > .signin-intro > .recommend{
+    font-family: sans-serif;
+    font-size: 1rem;
+    color: rgb(163, 163, 163);
+}
+.Sign-in-Section > .signin-intro > .recommend > .sign-in{
+    border: none;
+    font-weight: 600;
+    background-color: transparent;
+    color: rgb(117, 180, 209);
+    font-size: 18px;
+    margin: 0 .1rem 0 0;
+}
+.Sign-in-Section > .signin-intro > .recommend > .sign-in:hover{
+    color: rgb(64, 153, 194);
+    cursor: pointer;
+}
+
+
+.Sign-in-Section > .signin > .heading{
+    font-family: sans-serif;
+    font-size: 1.7rem;
+    color: rgb(61, 61, 61);
+    padding: 0 0 1.8rem 0;
+}
+.Sign-in-Section > .signin > .input-1{
+    display: block;
+    width: 15rem;
+    height: 3rem;
+    border: 1px sloid rgb(243, 243, 243);
+    font-size: 15px;
+    padding: 0 .8rem;    
+}
+.Sign-in-Section > .signin > .input-2{
+    display: block;
+    width: 15rem;
+    height: 3rem;
+    border: 1px sloid rgb(243, 243, 243);
+    font-size: 15px;
+    padding: 0 .8rem;
+    margin-top: 1.1rem;
+}
+.Sign-in-Section > .signin > .btn a{
+    text-decoration: none;
+    color: aliceblue;
+    padding: 0.7rem 6.7rem;
+}
+.Sign-in-Section > .signin > .btn{
+    display: block;
+    width: 17rem;
+    height: 2.3rem;
+    background-color: rgb(78, 146, 201);
+    font-size: 15px;
+    margin-top: 2.1rem;
+    border: none;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+.Sign-in-Section > .signin > .btn:hover{
+    background-color: rgb(120, 184, 236);
+}
+.Sign-in-Section > .signin > a{
+    text-decoration: none;
+}
+.Sign-in-Section > .signin > a > .continue{
+    font-family: sans-serif;
+    font-size: 15px;
+    word-spacing: 1px;
+    text-align: center;
+    padding: .6rem 0;
+    color: rgb(187, 187, 187);
+}
+.Sign-in-Section > .signin > a > .continue:hover{
+    color: rgb(126, 126, 126);
+}
+
+
+/* SIGN UP  */
+
+
+.Sign-Up-Section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 5rem;
+    
+}
+.Sign-Up-Section > .signin-intro > .signin-heading{
+    font-family: sans-serif;
+    font-size: 2rem;
+    color: rgb(44, 44, 44);
+}
+.Sign-Up-Section > .signin-intro > .lorem{
+    font-family: sans-serif;
+    font-size: 1.3rem;
+    color: rgb(49, 49, 49);
+    padding: .8rem 0;
+}
+.Sign-Up-Section > .signin-intro > .recommend{
+    font-family: sans-serif;
+    font-size: 1rem;
+    color: rgb(163, 163, 163);
+}
+.Sign-Up-Section > .signin-intro > p > .register{
+    border: none;
+    font-weight: 600;
+    background-color: transparent;
+    color: rgb(117, 180, 209);
+    font-size: 18px;
+    margin: 0 .1rem 0 0;
+}
+.Sign-Up-Section > .signin-intro > p > .register:hover{
+    color: rgb(64, 153, 194);
+    cursor: pointer;
+}
+
+
+.Sign-Up-Section > .signin > .heading{
+    font-family: sans-serif;
+    font-size: 1.7rem;
+    color: rgb(61, 61, 61);
+    padding: 0 0 1.8rem 0;
+}
+.Sign-Up-Section > .signin > .input-1{
+    display: block;
+    width: 15rem;
+    height: 3rem;
+    border: 1px sloid rgb(243, 243, 243);
+    font-size: 15px;
+    padding: 0 .8rem;    
+}
+.Sign-Up-Section > .signin > .input-2{
+    display: block;
+    width: 15rem;
+    height: 3rem;
+    border: 1px sloid rgb(243, 243, 243);
+    font-size: 15px;
+    padding: 0 .8rem;
+    margin-top: 1.1rem;
+}
+.Sign-Up-Section > .signin > .input-3{
+    display: block;
+    width: 15rem;
+    height: 3rem;
+    border: 1px sloid rgb(243, 243, 243);
+    font-size: 15px;
+    padding: 0 .8rem;
+    margin-top: 1.1rem;
+}
+.Sign-Up-Section > .signin > .input-4{
+    display: block;
+    width: 15rem;
+    height: 3rem;
+    border: 1px sloid rgb(243, 243, 243);
+    font-size: 15px;
+    padding: 0 .8rem;
+    margin-top: 1.1rem;
+}
+.Sign-Up-Section > .signin > .btn a{
+    text-decoration: none;
+    color: aliceblue;
+    padding: 0.7rem 6.7rem;
+}
+.Sign-Up-Section > .signin > .btn{
+    display: block;
+    width: 17rem;
+    height: 2.3rem;
+    background-color: rgb(78, 146, 201);
+    font-size: 15px;
+    margin-top: 2.1rem;
+    border: none;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+.Sign-Up-Section > .signin > .btn:hover{
+    background-color: rgb(120, 184, 236);
+}
+.Sign-Up-Section > .signin > a{
+    text-decoration: none;
+}
+.Sign-Up-Section > .signin > a > .continue{
+    font-family: sans-serif;
+    font-size: 15px;
+    word-spacing: 1px;
+    text-align: center;
+    padding: .6rem 0;
+    color: rgb(187, 187, 187);
+}
+.Sign-Up-Section > .signin > a > .continue:hover{
+    color: rgb(126, 126, 126);
+}
+
+
